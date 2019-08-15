@@ -1,0 +1,23 @@
+{
+    "name": "mufasil/laravel_model_keys_encryption",
+    "description": "This package is to encrypt the keys like 'Id' of your database.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mufasil",
+            "email": "mufasil.ccna@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Mufasil\\KeyEncryption\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Mufasil\\KeyEncryption\\": "src/"
+        }
+    }
+}
